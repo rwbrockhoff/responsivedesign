@@ -77,9 +77,15 @@ img {
     display: none;
   }
 
-  .nav {
-    display: flex;
-    flex-direction: row;
-    margin-top: -5vh;
+  div.nav.null {
+  position: absolute;
+  top: 5vh;
+  right: 5vw;
+  height: 20vh;
+  width: 40vw;
+  text-align: right;
+  display: flex;
+  flex-direction: row;
+  
   }
 }
